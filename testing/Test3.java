@@ -1,5 +1,7 @@
 public class Test3{
 	public static void main(String[] args) {
-		System.out.println("Hello from Test 3");
+		System.out.println("==> Removing Dummy Consultant from Dummy Project...");
+		TimeUnit.SECONDS.sleep(1);
+		System.out.println("==> Dummy Consultant Removed...");	
 	}
 }
