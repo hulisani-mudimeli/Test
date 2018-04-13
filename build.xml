@@ -123,13 +123,31 @@
         <antcall target="build"/>
     </target>
 
-    <target name="test" depends="compile">
-        <java classname="Test">
+    <target name = "compile">
+        <javac includeantruntime="false" srcdir="./testing" destdir="testing-out"/>
+    </target>
+
+    <target name="test1" depends="compile">
+        <java classname="Test1">
             <classpath path = "testing-out"/>
         </java>
     </target>
 
-    <target name = "compile">
-        <javac includeantruntime="false" srcdir="./testing" destdir="testing-out"/>
+    <target name="test2" depends="compile">
+        <java classname="Test2">
+            <classpath path = "testing-out"/>
+        </java>
+    </target>
+
+    <target name="test3" depends="compile">
+        <java classname="Test3">
+            <classpath path = "testing-out"/>
+        </java>
+    </target>
+
+    <target name="test4" depends="compile">
+        <java classname="Test4">
+            <classpath path = "testing-out"/>
+        </java>
     </target>
 </project>
