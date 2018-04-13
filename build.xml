@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="run" name="Consultant-Tracker">
+    
+    
+              	
+	<target name="run" depends="compile">
+    	<java classname="com.ConsultantTracker.testing.UnitTest">
+              <classpath path="staging"/>
+        </java>
+    </target>
+    <target name="compile">
+    	<javac srcdir="./src" destdir="staging"/>
+    </target>
+</project>
