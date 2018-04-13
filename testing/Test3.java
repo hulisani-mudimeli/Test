@@ -10,6 +10,5 @@ public class Test3{
 		}
 		// System.out.println("==> Dummy Consultant Removed...");	
 		System.out.println("==> Nothing happened because there was no consultant tracked...");	
-		exit(0);
 	}
 }
