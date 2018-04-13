@@ -8,5 +8,6 @@ public class Test4{
 		}catch(InterruptedException e){
 			System.out.println("...");
 		}
-		System.out.println("==> Dummy Project Deleted...");			}
+		System.out.println("==> Dummy Project Deleted...");			
+	}
 }
