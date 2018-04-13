@@ -8,6 +8,7 @@ public class Test3{
 		}catch(InterruptedException e){
 			System.out.println("...");
 		}
-		System.out.println("==> Dummy Consultant Removed...");	
+		// System.out.println("==> Dummy Consultant Removed...");	
+		System.out.println("==> Nothing happened because there was no consultant tracked...");	
 	}
 }
